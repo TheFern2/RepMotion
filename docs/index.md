@@ -86,10 +86,15 @@ RepMotion ships as three independent libraries so you can import only what you n
 | `RepMotionDetection` | Detection engine, calibration, power and distance estimation | `RepMotionCore` |
 | `RepMotionCapture` | Live sensor capture via CoreMotion and fixture replay | `RepMotionCore` |
 
+## Interactive Demo
+
+**[Try the Signal Explorer](interactive)** -- adjust detection parameters with sliders and watch the pipeline process a simulated exercise session in real time. See how alpha, threshold, refractory period, axis, and polarity affect rep detection.
+
 ## Documentation
 
 - [Getting Started](getting-started) -- installation, setup, first integration
 - [Architecture](architecture) -- how the detection pipeline works
+- [Interactive Signal Explorer](interactive) -- live parameter tuning visualization
 - [Basic Detection](guides/basic-detection) -- using `RepDetectionService`
 - [Calibration](guides/calibration) -- auto-tuning with `CalibrationEngine`
 - [Power and Distance](guides/power-distance) -- workout intensity metrics
